@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz de cuadros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cuadro informativo -->
+    <div class="cuadro-informativo" id="cuadroInformativo" style="display: none">Texto informativo sobre el mural...</div>
+
+    <div class="input-container">
+        <input type="text" id="codigo" placeholder="Ingrese el código">
+        <button onclick="enviarCodigo()">Revelar mosaico</button>
+    </div>
+
+    <div class="container">
+        <div class="matriz" id="matriz">
+        <!-- Aquí se generará la matriz con JS -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
